@@ -4,7 +4,7 @@ import operator
 
 
 def home(request):
-    return render(request, 'home.html', {'hithere': 'This is me'})
+    return render(request, 'home.html')
 
 
 def count(request):
